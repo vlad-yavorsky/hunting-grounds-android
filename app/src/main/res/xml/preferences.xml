@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+            android:title="@string/database"
+            app:iconSpaceReserved="false">
+        <EditTextPreference
+                android:key="@string/key_api_host"
+                android:title="@string/api_host"
+                app:iconSpaceReserved="false"/>
+        <Preference
+                android:key="@string/key_update"
+                android:title="@string/update"
+                app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>
